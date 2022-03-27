@@ -1,0 +1,100 @@
+.login {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login .wrapper {
+  width: 272px;
+}
+
+.login .wrapper .logo {
+  font-size: 48px;
+  text-align: center;
+  font-family: 'Yellowtail', cursive;
+}
+
+.login .wrapper .login-contents {
+  margin-top: 16px;
+}
+
+.login .wrapper .login-contents .custom-input > .title {
+  font-size: 12px;
+  color: #262626;
+}
+
+.login .wrapper .login-contents .custom-input .input {
+  margin-top: 4px;
+  width: 272px;
+  height: 34px;
+  border: 1px solid #e8e8e8;
+}
+
+.login .wrapper .login-contents .custom-input .input input {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login .wrapper .login-contents .password-input {
+  margin-top: 20px;
+}
+
+.login .wrapper .login-contents .login-btn {
+  width: 100%;
+  height: 34px;
+  background-color: #262626;
+  font-size: 12px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  margin-top: 28px;
+}
+
+.login .wrapper .go-join {
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.login .wrapper .go-join > .title {
+  font-size: 12px;
+  color: #262626;
+  margin-right: 8px;
+}
+
+.login .wrapper .go-join > .asset {
+  width: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=index.css.map */

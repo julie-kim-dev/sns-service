@@ -1,0 +1,39 @@
+#root .header {
+  width: 100%;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+}
+
+#root .header .wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#root .header .wrapper .logo {
+  font-size: 17px;
+  font-family: 'Yellowrail', cursive;
+}
+
+#root .header .wrapper .navigation .nav-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#root .header .wrapper .navigation .nav-wrapper .nav {
+  margin: 10px 30px;
+}
+/*# sourceMappingURL=index.css.map */

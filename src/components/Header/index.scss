@@ -1,0 +1,28 @@
+#root {
+    .header {
+        width: 100%;
+        position: fixed;
+        background-color: #fff;
+        top: 0;
+        .wrapper {
+            margin: 0 auto;
+            width: 1000px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo {
+                font-size: 17px;
+                font-family: 'Yellowrail', cursive;
+            }
+            .navigation {
+                .nav-wrapper {
+                    display: flex;
+                    justify-content: center;
+                    .nav {
+                        margin: 10px 30px;
+                    }
+                }
+            }
+        } //wrapper
+    }
+}

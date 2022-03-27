@@ -1,0 +1,200 @@
+$gray: #e8e8e8;
+$gray100: #9D9D9F;
+$gray200: #454545;
+$main: #373f50;
+$blue: #5085e8;
+$black: #262626;
+$white200: #fafafa;
+
+#root{
+    .profile{
+        padding-top: 53px;
+        background-color: $white200;
+        min-height: 100vh;
+        .wrapper{
+            padding-top: 39px;
+            padding-bottom: 100px;
+            width: 1000px;
+            margin: 0 auto;
+            .info{
+                display: flex;
+                align-items: center;
+                .profile-image{
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    background-color:$gray;               
+                    margin-right: 18px;
+                    flex-shrink: 0;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-size: cover;
+                    input{
+                        opacity: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .profile-desc{
+                    flex: 1;
+                    .nickname{
+                        font-size: 16px;
+                        color:#000;
+                    }
+                    .quote{
+                        font-size: 12px;
+                        line-height: 1.6;             
+                        margin-top:12px ;
+                        color:$gray200;
+                        textarea{
+                            border:none;
+                            resize: none;
+                            width: 100%;
+                            height: 43px;
+                            background-color: $white200;
+                        }
+                    }
+                    .follow-btn{
+                        width:100px;
+                        height:30px;
+                        border-radius: 15px;
+                        background-color: #fff;
+                        border:1px solid $gray;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 12px;
+                        color:$black;
+                        margin-top: 12px;
+                    }
+                }
+            }//info
+
+            .feed-images{
+                display: flex;
+                align-items: center;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                height: 175px;
+                width:100%;
+                margin-top: 32px;
+                .feed-image{
+                    margin-right: 25px;
+                    img{
+                        width:unset;
+                        height: 175px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+
+            .profile-contents{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin-top: 34px;
+                .feed-list{
+                    width: 730px;
+                   .feeds{
+                        .feed{
+                            border:1px solid $gray;
+                            background-color: #fff;
+                            margin-top: 25px;
+                            padding: 20px 24px;
+                            .top{
+                                display: flex;
+                                align-items: center;
+                                .profile-image{
+                                    width: 40px;
+                                    height:40px ;
+                                    border-radius:40px ;
+                                    background-color: $gray;
+                                    margin-right: 12px;
+                                }
+                                .profile-desc{
+                                    .nickname{
+                                        font-size: 14px;
+                                        color:$gray200;
+                                    }
+                                    .timestamp{
+                                        font-size: 10px;
+                                        color:$gray200;
+                                        opacity: 0.4;
+                                        margin-top: 2px;
+                                    }
+                                }
+                            }//top
+                            .contents{
+                                margin-top:48px;;
+                                font-size: 12px;
+                                color:$gray200;
+                                line-height: 1.8;
+                                .image{
+                                    width: 100%;
+                                    height: 309px;
+                                    background-color: $gray;
+                                    background-repeat: no-repeat;
+                                    background-position: center;
+                                    background-size: cover;
+                                    margin-top: 25px;
+                                }
+                            }
+                            .bottom{
+                                display: flex;
+                                align-items: center;
+                                margin-top: 25px;
+                                .like, .comment{
+                                    display: flex;
+                                    align-items: center;
+                                    .asset{
+                                        width: 32px;
+                                        display:flex;
+                                        align-items: center;
+                                        margin-right: 12px;
+                                    }
+                                    .count{
+                                        font-size: 16px;
+                                        color:$gray100;
+                                    }
+                                }
+                                .like{
+                                    margin-right: 24px;
+                                }
+                            
+                            }
+                        }//feed 
+                   }//feeds
+                  
+
+                }//feed-list
+                .profile-info-desc{
+                    width: 255px;
+                    display: flex;
+                    flex-direction:column;
+                    padding: 16px;
+                    background-color: #fff;
+                    border:1px solid $gray;
+                    position:sticky;
+                    top:80px;
+                    
+                    .desc{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 8px;
+                        &>.title{
+                            font-size: 12px;
+                            text-align: left;
+                        }
+                        .count{
+                            text-align: right;
+                            font-size: 12px;
+                        }
+                    }
+
+                }
+            }//profile-contents
+        }//wrapper
+
+    }//profile
+}
